@@ -1,0 +1,17 @@
+
+.title1{
+    color: blueviolet;
+}
+div{
+    background: pink;
+}
+.title2{
+    color: brown;
+}
+
+a[href=""]{
+    color: blue;
+}
+*{
+    background: papayawhip;
+}
