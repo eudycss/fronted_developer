@@ -11,14 +11,19 @@
             display: flex;
             background: papayawhip;
             /* para poner nuestros elementos en el medio */
-            justify-content: space-between;
-            height: 500px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 200px;
         }
         /* elementos hijos */
         .item{
             width:30px;
             height: 30px;
             background: purple;
+        }
+        .container .item:nth-child(2n+1){
+            background: cyan;
         }
     </style>
 </head>
