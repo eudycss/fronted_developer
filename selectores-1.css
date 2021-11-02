@@ -1,0 +1,25 @@
+div p{
+    color: Lime;
+}
+/* hijo adyacente */
+div + div{
+color: chocolate;
+}
+/* hijo directo */
+div > div{
+    background:plum;
+}
+
+.hijodirt{
+    background: red;
+}
+
+
+
+/* general de hermanos */
+div ~p{
+color: powderblue;
+}
+div~section{
+    background: palevioletred;
+}

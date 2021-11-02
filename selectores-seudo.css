@@ -1,0 +1,28 @@
+p{
+    color:salmon;
+}
+
+/* .fletter p::first-letter{
+    color: blue;
+}*/
+p::after{
+    content: "💪";
+}
+p::before{
+    content: "😊";
+}
+p::first-letter{
+    /* content: "💪: "; */
+    color: teal;
+}
+p:hover{
+    color: aqua;
+    background-color: blue;
+    border-radius: 10px;
+}
+/* nth-child(numero de hijo que quiero tenga esta propieda) */
+div p:nth-child(2){
+    color: violet;
+    background-color: brown;
+    will-change: auto;
+}
